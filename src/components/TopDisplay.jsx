@@ -5,7 +5,7 @@ const TopDisplay = ({ movie }) => {
 
   return (
     <Link>
-      <div className="mx-auto mt-4 h-110 sm:h-80 md:h-100 lg:h-120 md:w-[calc(100%-2rem)] w-full max-w-7xl rounded-2xl bg-slate-900 p-1 shadow-lg  md:max-w-none relative overflow-clip  ">
+      <div className="mx-auto mt-25 h-110 sm:h-80 md:h-100 lg:h-120 md:w-[calc(100%-2rem)] w-full max-w-7xl rounded-2xl bg-slate-900 p-1 shadow-lg  md:max-w-none relative overflow-clip  ">
         <img
           src={
             currentMovie.backdrop_path
