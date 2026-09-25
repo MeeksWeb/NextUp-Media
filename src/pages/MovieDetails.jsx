@@ -52,7 +52,7 @@ const MovieDetails = ({ addMedia, unCheck, saves }) => {
       {error && <p className="mt-4 text-red-600">{error}</p>}
 
       {!loading && !error && (
-        <div className="min-h-screen bg-slate-950 text-slate-100 mt-6 w-full md:w-[calc(100%-2rem)] max-w-7xl mx-auto md:max-w-none rounded-xl ">
+        <div className="min-h-screen bg-slate-950 text-slate-100 mt-25 w-full md:w-[calc(100%-2rem)] max-w-7xl mx-auto md:max-w-none rounded-xl ">
           <div className="relative h-[50vh] w-full overflow-hidden md:h-[65vh] rounded-t-xl ">
             {movies.backdrop_path ? (
               <img

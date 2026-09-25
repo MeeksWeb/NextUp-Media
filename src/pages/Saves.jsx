@@ -11,7 +11,7 @@ const Saves = ({ saves, deleteItem, type }) => {
   );
 
   return (
-    <div className="mx-auto mt-10 max-w-7xl md:w-[calc(100%-2rem)]">
+    <div className="mx-auto mt-25 max-w-7xl md:w-[calc(100%-2rem)]">
       {saves.length > 0 ? (
         <input
           type="text"
